@@ -1,0 +1,34 @@
+form>div {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.addStock {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-radius: 0.5rem;
+    max-width: 470px;
+    background-color: #7582f3;
+    color: #fff;
+}
+
+.removeStock {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-radius: 0.5rem;
+    max-width: 470px;
+    background-color: #f58d8d;
+    color: #fff;
+}
+
+.addStockInput {
+    width: 80%;
+    padding: 0.9rem 1rem;
+}
